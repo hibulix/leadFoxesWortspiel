@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         meta: [
           { charset: 'utf-8' },
           { name: 'description', content: 'Übe deine 10-Finger Tippfähigkeiten mit unserem Wortspiel. Tritt an und erreiche die höchste Punktzahl!' },
-          { name: 'keywords', content: 'Tippsiel, 10-Finger-Tippen, Tippübungen, Tippgeschwindigkeit'},
+          { name: 'keywords', content: 'Tippspiel, 10-Finger-Tippen, Tippübungen, Tippgeschwindigkeit'},
         ]
       }
     }
