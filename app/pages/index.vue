@@ -7,7 +7,7 @@
     <div class="text-center py-12">
       <h1 class="text-4xl font-bold text-gray-900 mb-4">Willkommen to LeadFoxes Wortspiel 🦊</h1>
       <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-        Verbessere deine 10-finger Schreibfähigkeiten mit unserem spannenden Wortspiel!
+        Verbessere deine 10-finger Tippfähigkeiten mit unserem spannenden Wortspiel!
         Wer kann am schnellsten verschiedene Wörter tippen?
       </p>
 
