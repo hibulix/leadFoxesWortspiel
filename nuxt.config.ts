@@ -5,4 +5,15 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss', '@pinia/nuxt'
     ],
+    css: ['~/assets/css/main.css'],
+    app: {
+      head: {
+        title: 'Wortspile - Verbessere dein Tippgeschwindigkeit',
+        meta: [
+          { charset: 'utf-8' },
+          { name: 'description', content: 'Übe deine 10-Finger Tippfähigkeiten mit unserem Wortspiel. Tritt an und erreiche die höchste Punktzahl!' },
+          { name: 'keywords', content: 'Tippsiel, 10-Finger-Tippen, Tippübungen, Tippgeschwindigkeit'},
+        ]
+      }
+    }
 })
