@@ -27,7 +27,7 @@
         <p class="text-gray-600">Reduziere Tippfehler und entwickle Muskelgedächtnis für die Tastatur.</p>
       </div>
 
-      <div class="card mb-8">
+      <div class="card mb-18">
         <h2 class="text-2xl font-bold mb-4">🎮 Wie funktioniert das Spiel?</h2>
         <ol class="space-y-2 text-gray-700">
           <li><strong>1. Zugang durch Anmeldung:</strong> Um spielen zu können, muss man sich zuerst anmelden oder registrieren</li>
@@ -36,7 +36,6 @@
           <li><strong>4. Score erhalten:</strong> Die erreichte Punktzahl (Score) wird primär aus der benötigten Zeit berechnet</li>
           <li><strong>5. Highscore:</strong> Die besten Scores werden in der Highscore-Liste gespeichert</li>
         </ol>
-        <p class="text-gray-600">Reduziere Tippfehler und entwickle Muskelgedächtnis für die Tastatur.</p>
       </div>
 
       <div class="card">

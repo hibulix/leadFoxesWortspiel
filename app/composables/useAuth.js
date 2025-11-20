@@ -1,3 +1,5 @@
+import { ref, readonly } from 'vue'
+
 const user = ref(null)
 
 export const useAuth = () => {
@@ -5,17 +7,18 @@ export const useAuth = () => {
         console.log('Login attempt:', username, password)
 
         if (username && password) {
-            user.value = {
+            const userData = {
                 id: Date.now(),
                 username,
                 isAdmin: username === 'admin'
             }
+            user.value = userData
 
             if (process.client) {
                 localStorage.setItem('user', JSON.stringify(userData))
             }
 
-            console.log('Login successsful', userData)
+            console.log('Login successful:', userData)
             return true
         }
 
@@ -38,8 +41,8 @@ export const useAuth = () => {
                 try {
                     user.value = JSON.parse(stored)
                     console.log('Restored user from localStorage:', user.value)
-                } catch (e) {
-                    console.error('Error parsing user data from localStorage:', e)
+                } catch (error) {
+                    console.error('Error parsing stored user:', error)
                     localStorage.removeItem('user')
                 }
             }
